@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lec005</title>
+        <style>
+            .red::selection{
+                background-color: royalblue;
+            }
+            #myquote::selection{
+                background-color: violet;
+            }
+           .red{
+              color: red; 
+           }
+           #myheading{
+               color: seagreen;
+           }
+           #myquote{
+               background-color: sienna;
+           }
+        </style>
+    </head>
+    <body>
+        <h1 id="myheading">This is Block element</h1>
+        <a class="red">This is Lec 5</a>
+        <span class="red">this is Lec 5</span>
+        <!-- <span>in html use of <mark> Block lvl</mark> element is important</span> -->
+        <span style="color: black;background-color: yellow;">in html use of  Block lvl element is important</span>
+        <!-- BlockQuote start -->
+        <p class="red">
+            some text
+            <blockquote>
+                This is web Programming Class
+            </blockquote>
+            some text
+        </p>
+        <!-- BlockQuote Ends -->
+        <!-- inline Quote starts -->
+        <p id="myquote"><q>Programming</q> is very Important</p>
+        <address>Islamabad 5th Road</address>
+        <abbr title="World Health Org">WHO</abbr>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Roll no</th>
+            </tr>
+            <tr>
+                <td>Rubab</td>
+                <td>453434</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>Abbas</td>
+                <td>453434</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>Farwa</td>
+                <td>453434</td>
+                <td>12</td>
+            </tr>
+        </table>
+<!-- ol types  "A","a","I","i" -->
+
+<!-- ol range(start)   -->
+        <ol>
+            <li>Abbas
+                <ol type="a">
+                    <li>Html</li>
+                    <li>css</li>
+                    <li>js</li>
+                </ol>
+            </li>
+            <li>Rubab
+                <ol type="a">
+                    <li>Html</li>
+                    <li>css</li>
+                    <li>js</li>
+                </ol>
+            </li>
+            <li>Farwa
+                <ol type="a">
+                    <li>Html</li>
+                    <li>css</li>
+                    <li>js</li>
+                </ol>
+            </li>
+        </ol>
+    </body>
+</html>
