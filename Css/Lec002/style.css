@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(185, 115, 115);
+    margin: 20px auto 0;
+
+    
+
+}
+.border1{
+    /* border-color: black; */
+    /* solid , dashed ,dotted */
+    /* border-style: dashed; */
+    /* border-width: 8px; */
+
+    border: 8px dashed black;
+}
+
+.border2{
+    /* sides: top right bottom left */
+    border: 8px solid black;
+    border-left-style: dashed;
+    border-left-color: purple;
+    border-right-width: 20px;
+    border-bottom-color: royalblue;
+}
+
+.border3{
+    border: 8px solid rebeccapurple;
+    margin-bottom: 10px;
+    /* border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; */
+    border-radius: 50%;
+    overflow: hidden;
+}
