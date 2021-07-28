@@ -1,0 +1,9 @@
+.center{
+    margin: 0 auto;
+    background-color: aqua;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+body{
+    height: 100%;
+}
