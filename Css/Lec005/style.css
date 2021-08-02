@@ -1,0 +1,85 @@
+.box1{
+    /* background-color: beige; */
+    /* background-image: url('download.jfif'); */
+    height: 400px;
+    /* width: 600px; */
+    
+    /* background-repeat: no-repeat; */
+    /* background-position: top left; */
+    /* background-position: top center; */
+    /* background-position: top right; */
+
+    /* background-position: center left; */
+    /* background-position: center center; */
+    /* background-position: center right; */
+
+    /* background-position: bottom left; */
+    /* background-position: bottom center; */
+    /* background-position: bottom right; */
+    /* background-attachment: fixed; */
+    /* background-size: 100% 100%; */
+    /* short hand order */
+    /* color image repeat attachment possition */
+
+    background: url("download.jfif") no-repeat;
+    background-size: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.wrapper{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('formback.jpg') no-repeat ;
+    background-size: 100%;
+}
+.form-container{
+    width: 450px;
+    margin: 100px auto 0;
+    background-color: rgba(255, 255, 255,.4);
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 0 20px black;
+
+}
+.form-group label{
+    display: block;
+    margin-bottom: 3px;
+}
+.form-group input{
+    width: 100%;
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 3px;
+    outline: 0;
+    font-size: 16px;
+}
+textarea,input{
+    border: 1px solid;
+}
+.form-group textarea{
+    width: 100%;
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 3px;
+    outline: 0;
+    font-size: 16px;
+}
+.btn{
+    text-align: center;
+}
+.btn button{
+    background-color: rgb(30, 158, 180);
+    color: white;
+    font-weight: 600;
+    border-radius: 2rem;
+}
