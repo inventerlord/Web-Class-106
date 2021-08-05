@@ -1,0 +1,40 @@
+#ho{
+    color: paleturquoise;
+    opacity: 0.2;
+
+}
+#f{
+    color: yellowgreen;
+}
+
+
+#ho:hover{
+    color: purple;
+    font-size: 30px;
+    opacity: 1;
+    
+}
+
+
+/* Spacing */
+
+#para{
+    text-indent: 50px;
+}
+#lineSP{
+    letter-spacing: .5px;
+    font-family: moncar;
+}
+#line-height{
+    line-height: 20px;
+    font-family: robo,sans-serif;
+    font-style: italic;
+
+}
+#wordspace{
+    font-family: sscript;
+    word-spacing: 10px;
+}
+#whiSpace{
+    white-space: nowrap;
+}

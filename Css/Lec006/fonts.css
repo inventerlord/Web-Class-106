@@ -1,0 +1,48 @@
+
+
+
+@font-face {
+    font-family: moncar;
+    src: url(fonts/MonteCarlo/MonteCarlo-Regular.ttf);
+    
+}
+@font-face {
+    font-family: sscript;
+    font-style: normal;
+    font-weight: bold;
+    src: url(fonts/StyleScript/StyleScript-Regular.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: robo;
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+}
+
+
+/*  */
+@font-face {
+    font-family: robo;
+    font-style: normal;
+    font-weight: bold;
+    src: url(fonts/Roboto/Roboto-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: robo;
+    font-style: italic;
+    font-weight: 400;
+    src: url(fonts/Roboto/Roboto-Italic.ttf) format('truetype');
+}
+@font-face {
+    font-family: robo;
+    font-style: normal;
+    font-weight: 100;
+    src: url(fonts/Roboto/Roboto-Thin.ttf) format('truetype');
+}
+@font-face {
+    font-family: robo;
+    font-style: italic;
+    font-weight: 100;
+    src: url(fonts/Roboto/Roboto-ThinItalic.ttf) format('truetype');
+}
