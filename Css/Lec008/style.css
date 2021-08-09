@@ -1,0 +1,85 @@
+
+/* Link state */
+/* text decoration */
+/* background color */
+/* a:link{
+    color: red;
+    text-decoration: none;
+    background-color: rgb(212, 235, 235);
+}
+a:visited{
+    color: green;
+    text-decoration: none;
+    background-color: rgb(97, 117, 207);
+}
+
+a:hover{
+    color: hotpink;
+    text-decoration: underline;
+    background-color: honeydew;
+}
+a:active{
+    color: blue;
+    text-decoration: line-through;
+    background-color: rgb(255, 255, 255);
+} */
+.linkbt:link,.linkbt:visited{
+    background-color: #f44336;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.linkbt:hover,.linkbt:active{
+    background-color: red;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* list */
+
+ul#a{
+    list-style-type: circle;
+}
+ul#b{
+    list-style-type: square;
+    list-style-position: inside;
+}
+ol#c{
+    list-style: square inside url('list.png');
+
+}
+ol#d{
+    list-style-image: url('list.png');
+    list-style-position: inside;
+}
+
+/* table */
+.responsive{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.biz-table{
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    width: 100%;
+}
+.biz-table td,.biz-table th{
+    border: 1px solid black;
+    padding: 8px;
+}
+.biz-table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: brown;
+    color: white;
+}
+.biz-table tr:nth-child(even){
+    background-color: #e9d0d0;
+}
+.biz-table tr:hover{
+    background-color: #ddd;
+}
