@@ -1,0 +1,30 @@
+span{
+    font-size: 27px;
+    display: inline-block;
+    background-color: var(--btn-green);
+    color: white;
+}
+
+span[class="bg-tomato-white-rounded"]{
+    background-color: tomato;
+    padding: 8px 12px;
+    border-radius: var(--rubab);
+    box-shadow: 0 0 20px black;
+}
+.list li{
+    color: darkorchid;
+}
+#sublist-items ~ li{
+    color: red;
+}
+#counterContainer{
+    counter-reset: header;
+}
+h4::before{
+    counter-increment: header;
+    content: counter(header);
+    background-color: dimgray;
+    padding: 5px 8px;
+    margin-right: 3px;
+    border-radius: 50%;
+}

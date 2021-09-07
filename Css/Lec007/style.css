@@ -24,7 +24,9 @@
     padding: 15px 9px;
 
 }
-
+a::before{
+    content: "ali";
+}
 .nav-link:hover{
  background-color: rgb(133, 133, 133);   
 }
@@ -36,4 +38,8 @@
 
 i{
     margin-right: 5px;
+}
+
+.digi::after{
+    content: "\e058";
 }

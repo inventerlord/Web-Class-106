@@ -1,0 +1,28 @@
+.container{
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+/* 
+float : left 
+float : right
+float : auto
+float : inhetit
+float : none
+
+*/
+.container img{
+    float: left;
+    height: 100%;
+    padding: 8px;
+}
+.inl{
+    display: inline-block;
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+}
+
+.ar > p{
+    color: red;
+}

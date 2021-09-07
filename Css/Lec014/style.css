@@ -1,0 +1,16 @@
+a[target="_blank"]{
+    background-color: rebeccapurple;
+    color: white; 
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 20px;
+
+}
+a[title="google"]{
+    background-color: violet;
+    color: white;
+}
+input[type="text"]{
+    color: red;
+}

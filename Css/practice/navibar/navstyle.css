@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    overflow: hidden;
+    background-color: rgb(17, 3, 78);
+}
+.navitem{
+    float: left;
+    transition: all 1s;
+}
+.navlink{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 9px;
+}
+.navlink:hover{
+    background-color: rgb(105, 86, 122);
+}
+.submenu{
+    display: none;
+    position: absolute;
+    background-color:rgb(17, 3, 78);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    overflow: hidden;
+    z-index: 2;
+    transition: all 1s;
+    
+}
+li:hover > .submenu{
+    /* transition: all 1s; */
+    color: aqua ;
+    display: block;
+}
+.submenu-item{
+    
+}
+.submenulink{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+}
+.submenulink:hover{
+    background-color: rgb(105, 86, 122);
+}
+.main{
+
+}
+.main .img-container{
+    width: 100%;
+    height: 550px;
+    position: relative;
+    clip-path: polygon(0% 0%,100% 0%,90% 100%,0% 82%);
+overflow: hidden;
+
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.img-container::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(197, 50, 70, 0.267);
+} 
+h1{
+    position: relative;
+    color: aquamarine;
+    transition: all 1s;
+
+}
+h1:hover{
+    color: brown;
+}
